@@ -1,0 +1,11 @@
+{
+  "baseSpeed": 0,
+  "name": "TownGuardNPC_Name",
+  "name_objective": "TownGuardNPC_Name",
+  "description": "TownGuardNPC_Desc",
+  "spriteDesc": "spritesDesc/TownGuardNPC.json",
+  "scriptFile": "scripts/npc/GuardDogKeeper",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

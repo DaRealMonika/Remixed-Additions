@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 2,
+  "attackSkill": 5,
+  "exp": 8,
+  "maxLvl": 35,
+  "dmgMin": 6,
+  "dmgMax": 9,
+  "dr": 7,
+  "ht": 8,
+  "attackDelay": 1,
+  "attackRange": 5,
+  "name": "OmnipotentEye_Name",
+  "name_objective": "OmnipotentEye_Name",
+  "description": "OmnipotentEye_Desc",
+  "spriteDesc": "spritesDesc/OmnipotentEye.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "flying": true,
+  "scriptFile": "scripts/mobs/OmnipotentEye"
+}

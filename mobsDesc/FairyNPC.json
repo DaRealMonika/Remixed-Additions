@@ -1,0 +1,13 @@
+{
+  "baseSpeed": 0,
+  "name": "Fairy_Name",
+  "name_objective": "Fairy_Name",
+  "description": "Fairy_Desc",
+  "spriteDesc": "spritesDesc/Fairy.json",
+  "aiState": "Passive",
+  "walkingType": "NORMAL",
+  "friendly": true,
+  "flying": true,
+  "fraction": "NEUTRAL",
+  "scriptFile": "scripts/npc/Fairy"
+}

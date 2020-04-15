@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 15,
+  "attackSkill": 10,
+  "exp": 5,
+  "maxLvl": 10,
+  "dmgMin": 5,
+  "dmgMax": 10,
+  "baseSpeed": 1,
+  "attackDelay": 0.5,
+  "ht": 20,
+  "attackRange": 8,
+  "name": "IceMage_Name",
+  "name_objective": "IceMage_Name",
+  "description": "IceMage_Desc",
+  "spriteDesc": "spritesDesc/IceMage.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/IceMage",
+  "aiState": "Wandering"
+}

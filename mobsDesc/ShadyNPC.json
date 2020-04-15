@@ -1,0 +1,8 @@
+{
+  "baseSpeed": 0,
+  "spriteDesc": "spritesDesc/ShadyNPC.json",
+  "scriptFile": "scripts/npc/Shady",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

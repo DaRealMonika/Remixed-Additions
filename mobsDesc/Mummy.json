@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 5,
+  "attackSkill": 24,
+  "exp": 10,
+  "maxLvl": 38,
+  "dmgMin": 8,
+  "dmgMax": 20,
+  "dr": 2,
+  "ht": 35,
+  "loot": {"kind":"OldBandage"},
+  "lootChance": 0.01,
+  "name": "Mummy_Name",
+  "name_objective": "Mummy_Name",
+  "description": "Mummy_Desc",
+  "gender": "masculin",
+  "spriteDesc": "spritesDesc/Mummy.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/Mummy"
+}

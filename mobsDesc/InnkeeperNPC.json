@@ -1,0 +1,8 @@
+{
+  "baseSpeed": 0,
+  "spriteDesc": "spritesDesc/InnkeeperNPC.json",
+  "scriptFile": "scripts/npc/Innkeeper",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 30,
+  "attackSkill": 17,
+  "exp": 25,
+  "maxLvl": 100,
+  "dmgMin": 28,
+  "dmgMax": 48,
+  "dr": 6,
+  "ht": 70,
+  "attackDelay": 4,
+  "attackRange": 8,
+  "name": "CeaselessVoid_Name",
+  "name_objective": "CeaselessVoid_Name",
+  "description": "CeaselessVoid_Desc",
+  "spriteDesc": "spritesDesc/CeaselessVoid.json",
+  "walkingType": "NORMAL",
+  "aiState": "Hunting",
+  "flying":true,
+  "scriptFile": "scripts/mobs/CeaselessVoid"
+}

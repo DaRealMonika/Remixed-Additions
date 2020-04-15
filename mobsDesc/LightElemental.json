@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 15,
+  "attackSkill": 10,
+  "exp": 5,
+  "maxLvl": 10,
+  "dmgMin": 5,
+  "dmgMax": 10,
+  "baseSpeed": 1,
+  "attackDelay": 0.5,
+  "ht": 20,
+  "name": "LightElemental_Name",
+  "name_objective": "LightElemental_Name",
+  "description": "LightElemental_Desc",
+  "spriteDesc": "spritesDesc/LightElemental.json",
+  "canBePet": true,
+  "walkingType": "ABSOLUTE",
+  "flying": "true",
+  "scriptFile": "scripts/mobs/LightElemental",
+  "aiState": "Wandering"
+}

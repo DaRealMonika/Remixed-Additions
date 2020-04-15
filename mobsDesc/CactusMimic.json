@@ -1,0 +1,19 @@
+{
+  "defenseSkill": 24,
+  "attackSkill": 24,
+  "exp": 20,
+  "maxLvl": 35,
+  "dmgMin": 8,
+  "dmgMax": 25,
+  "dr": 2,
+  "ht": 35,
+  "loot": {"kind":"CactusFruit"},
+  "lootChance": 0.5,
+  "name": "CactusMimic_Name",
+  "name_objective": "CactusMimic_Name",
+  "description": "CactusMimic_Desc",
+  "spriteDesc": "spritesDesc/CactusMimic.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/CactusMimic"
+}

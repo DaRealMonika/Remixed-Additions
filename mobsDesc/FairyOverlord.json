@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 32,
+  "attackSkill": 45,
+  "exp": 9,
+  "maxLvl": 10,
+  "dmgMin": 3,
+  "dmgMax": 7,
+  "dr": 5,
+  "ht": 420,
+  "attackDelay": 3,
+  "attackRange": 8,
+  "name": "FairyOverlord_Name",
+  "name_objective": "FairyOverlord_Name",
+  "description": "FairyOverlord_Desc",
+  "spriteDesc": "spritesDesc/FairyOverlord.json",
+  "aiState": "Hunting",
+  "walkingType": "NORMAL",
+  "flying":true,
+  "scriptFile": "scripts/mobs/FairyOverlord"
+}

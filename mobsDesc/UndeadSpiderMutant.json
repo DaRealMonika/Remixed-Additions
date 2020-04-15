@@ -1,0 +1,20 @@
+{
+   "defenseSkill"  :5,
+   "attackSkill"   :11,
+   "exp"           :6,
+   "maxLvl"        :13,
+   "dmgMin"        :8,
+   "dmgMax"        :16,
+   "dr"            :5,
+   "baseSpeed"     :0.5,
+   "attackDelay"   :2,
+   "ht"            :34,
+   "lootChance"    :0.03,
+   "name"          :"UndeadSpiderMutant_Name",
+   "name_objective":"UndeadSpiderMutant_Name",
+   "description"   :"UndeadSpiderMutant_Desc",
+   "spriteDesc"    :"spritesDesc/UndeadSpiderMutant.json",
+   "canBePet"      :true,
+   "walkingType"   :"NORMAL",
+   "scriptFile"    :"scripts/mobs/UndeadSpiderMutant"
+}

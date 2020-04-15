@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 8,
+  "attackSkill": 9,
+  "exp": 5,
+  "maxLvl": 10,
+  "dmgMin": 7,
+  "dmgMax": 14,
+  "dr": 10,
+  "ht": 20,
+  "attackDelay": 1,
+  "attackRange": 5,
+  "name": "AngryNimbus_Name",
+  "name_objective": "AngryNimbus_Name",
+  "description": "AngryNimbus_Desc",
+  "spriteDesc": "spritesDesc/AngryNimbus.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "flying": true,
+  "scriptFile": "scripts/mobs/AngryNimbus"
+}

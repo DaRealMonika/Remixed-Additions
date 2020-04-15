@@ -1,0 +1,16 @@
+{
+   "defenseSkill"  :20,
+   "attackSkill"   :30,
+   "exp"           :0,
+   "dmgMin"        :25,
+   "dmgMax"        :30,
+   "dr"            :8,
+   "ht"            :120,
+   "name"          :"WormLarva_Name",
+   "name_objective":"WormLarva_Name",
+   "description"   :"WormLarva_Desc",
+   "spriteDesc"    :"spritesDesc/Larva.json",
+   "canBePet"      :true,
+   "scriptFile"    :"scripts/mobs/Larva",
+   "walkingType"   :"NORMAL"
+}

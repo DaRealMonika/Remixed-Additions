@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 24,
+  "attackSkill": 24,
+  "exp": 25,
+  "maxLvl": 35,
+  "dmgMin": 25,
+  "dmgMax": 48,
+  "dr": 15,
+  "baseSpeed": 2,
+  "attackDelay": 4,
+  "ht": 60,
+  "name": "SandWorm_Name",
+  "name_objective": "SandWorm_Name",
+  "description": "SandWorm_Desc",
+  "spriteDesc": "spritesDesc/SandWorm.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/SandWorm",
+  "aiState": "Wandering"
+}

@@ -1,0 +1,16 @@
+{
+   "defenseSkill"  :10,
+   "attackSkill"   :15,
+   "exp"           :0,
+   "dmgMin"        :12,
+   "dmgMax"        :15,
+   "dr"            :4,
+   "ht"            :60,
+   "name"          :"CorpseLarva_Name",
+   "name_objective":"CorpseLarva_Name",
+   "description"   :"CorpseLarva_Desc",
+   "spriteDesc"    :"spritesDesc/Larva.json",
+   "canBePet"      :true,
+   "scriptFile"    :"scripts/mobs/CorpseLarva",
+   "walkingType"   :"NORMAL"
+}

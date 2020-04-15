@@ -1,0 +1,19 @@
+{
+  "defenseSkill": 63,
+  "attackSkill": 63,
+  "exp": 200,
+  "maxLvl": 500,
+  "dmgMin": 66,
+  "dmgMax": 80,
+  "dr": 80,
+  "ht": 800,
+  "attackDelay": 3,
+  "name": "DeadAdventurer_Name",
+  "name_objective": "DeadAdventurer_Name",
+  "description": "DeadAdventurer_Desc",
+  "spriteDesc": "spritesDesc/WarriorGhost.json",
+  "aiState": "Hunting",
+  "walkingType": "NORMAL",
+  "battleMusic":"ost_boss_1_fight.mp3",
+  "scriptFile": "scripts/mobs/WarriorGhost"
+}

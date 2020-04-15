@@ -1,0 +1,17 @@
+{
+  "defenseSkill": 12,
+  "attackSkill": 12,
+  "exp": 15,
+  "maxLvl": 35,
+  "dmgMin": 9,
+  "dmgMax": 16,
+  "dr": 2,
+  "ht": 17,
+  "name": "SplitCorpse_Name",
+  "name_objective": "SplitCorpse_Name",
+  "description": "SplitCorpse_Desc",
+  "spriteDesc": "spritesDesc/SplitCorpse.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/SplitCorpse"
+}

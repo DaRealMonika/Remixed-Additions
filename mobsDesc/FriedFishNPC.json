@@ -1,0 +1,10 @@
+{
+  "baseSpeed": 0,
+  "name": "FriedFish_Name",
+  "description": "FriedFish_Info",
+  "spriteDesc": "spritesDesc/FriedFishNPC.json",
+  "scriptFile": "scripts/npc/Food",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

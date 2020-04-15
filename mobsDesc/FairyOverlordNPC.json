@@ -1,0 +1,13 @@
+{
+  "baseSpeed": 0,
+  "name": "FairyOverlord_Name",
+  "name_objective": "FairyOverlord_Name",
+  "description": "FairyOverlord_Desc",
+  "spriteDesc": "spritesDesc/FairyOverlord.json",
+  "aiState": "Passive",
+  "walkingType": "NORMAL",
+  "friendly": true,
+  "flying":true,
+  "fraction": "NEUTRAL",
+  "scriptFile": "scripts/npc/FairyOverlord"
+}

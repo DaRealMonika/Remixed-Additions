@@ -1,0 +1,12 @@
+{
+  "dmgMin": 1,
+  "dmgMax": 10,
+  "ht": 20,
+  "name": "CockerSpaniel_Name",
+  "name_objective": "CockerSpaniel_Name",
+  "description": "CockerSpaniel_Desc",
+  "spriteDesc": "spritesDesc/CockerSpaniel.json",
+  "canBePet": true,
+  "scriptFile": "scripts/mobs/CockerSpaniel",
+  "walkingType": "NORMAL"
+}

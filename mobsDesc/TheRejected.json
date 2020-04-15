@@ -1,0 +1,16 @@
+{
+  "defenseSkill": 2,
+  "attackSkill": 26,
+  "exp": 13,
+  "maxLvl": 35,
+  "dmgMin": 24,
+  "dmgMax": 38,
+  "ht": 80,
+  "name": "TheRejected_Name",
+  "name_objective": "TheRejected_Name",
+  "description": "TheRejected_Desc",
+  "spriteDesc": "spritesDesc/TheRejected.json",
+  "canBePet": true,
+  "scriptFile": "scripts/mobs/TheRejected",
+  "walkingType": "NORMAL"
+}

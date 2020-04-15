@@ -1,0 +1,10 @@
+{
+  "name": "CockerSpaniel_Name",
+  "name_objective": "CockerSpaniel_Name",
+  "description": "CockerSpaniel_Desc",
+  "spriteDesc": "spritesDesc/CockerSpanielNPC.json",
+  "scriptFile": "scripts/npc/CockerSpaniel",
+  "aiState": "Passive",
+  "fraction": "NEUTRAL",
+  "friendly": true
+}

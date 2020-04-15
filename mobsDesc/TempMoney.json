@@ -1,0 +1,11 @@
+{
+  "baseSpeed": 0,
+  "spriteDesc": "spritesDesc/GoldenStatue.json",
+  "scriptFile": "scripts/npc/MoneyGiver",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL",
+  "name": "Temporary Money Statue",
+  "name_objective": "Temporary Money Statue",
+  "description": "This Statue is made of GOLD!!! but to bad that it's a Temporary NPC for testing and is used to Give/Remove Money to/from the player."
+}

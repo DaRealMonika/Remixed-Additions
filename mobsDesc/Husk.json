@@ -1,0 +1,16 @@
+{
+  "defenseSkill": 4,
+  "attackSkill": 14,
+  "exp": 5,
+  "maxLvl": 15,
+  "dmgMin": 3,
+  "dmgMax": 15,
+  "ht": 20,
+  "name": "Husk_Name",
+  "name_objective": "Husk_Name",
+  "description": "Husk_Desc",
+  "spriteDesc": "spritesDesc/Husk.json",
+  "canBePet": true,
+  "scriptFile": "scripts/mobs/Husk",
+  "walkingType": "NORMAL"
+}

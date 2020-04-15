@@ -1,0 +1,11 @@
+{
+  "baseSpeed": 0,
+  "name": "BoneDragon_Name",
+  "name_objective": "BoneDragon_Name",
+  "description": "BoneDragon_Desc",
+  "spriteDesc": "spritesDesc/BoneDragonNPC.json",
+  "scriptFile": "scripts/npc/BoneDragon",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

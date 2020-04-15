@@ -1,0 +1,12 @@
+{
+   "dmgMin"        :1,
+   "dmgMax"        :10,
+   "ht"            :20,
+   "name"          :"EuropeanShorthair_Name",
+   "name_objective":"EuropeanShorthair_Name",
+   "description"   :"EuropeanShorthair_Desc",
+   "spriteDesc"    :"spritesDesc/EuropeanShorthair.json",
+   "scriptFile"    :"scripts/mobs/EuropeanShorthair",
+   "walkingType"   :"NORMAL",
+  "canBePet": true
+}

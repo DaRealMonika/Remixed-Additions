@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 2,
+  "attackSkill": 5,
+  "exp": 3,
+  "maxLvl": 5,
+  "dmgMin": 1,
+  "dmgMax": 2,
+  "dr": 1,
+  "ht": 4,
+  "attackDelay": 1,
+  "attackRange": 5,
+  "name": "Fairy_Name",
+  "name_objective": "Fairy_Name",
+  "description": "Fairy_Desc",
+  "spriteDesc": "spritesDesc/Fairy.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "flying": true,
+  "scriptFile": "scripts/mobs/Fairy"
+}

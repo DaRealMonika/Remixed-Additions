@@ -1,0 +1,12 @@
+{
+  "baseSpeed": 0,
+  "name": "TownsfolkNPC_Name",
+  "name_objective": "TownsfolkNPC_Name",
+  "description": "TownsfolkNPC_Desc",
+  "gender": "masculine",
+  "spriteDesc": "spritesDesc/TownsfolkNPC.json",
+  "scriptFile": "scripts/npc/TownQuest4",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

@@ -1,0 +1,23 @@
+{
+  "defenseSkill": 12,
+  "attackSkill": 24,
+  "exp": 5,
+  "maxLvl": 20,
+  "dr": 4,
+  "dmgMin": 2,
+  "dmgMax": 14,
+  "baseSpeed": 2,
+  "attackDelay": 0.5,
+  "ht": 40,
+  "loot": {"kind":"RingOfHaggler"},
+  "lootChance": 0.01,
+  "name": "TombRaider_Name",
+  "name_objective": "TombRaider_Name",
+  "description": "TombRaider_Desc",
+  "gender": "masculin",
+  "spriteDesc": "spritesDesc/TombRaider.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/TombRaider",
+  "aiState": "Wandering"
+}

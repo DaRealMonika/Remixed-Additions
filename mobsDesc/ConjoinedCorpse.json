@@ -1,0 +1,17 @@
+{
+  "defenseSkill": 24,
+  "attackSkill": 24,
+  "exp": 20,
+  "maxLvl": 35,
+  "dmgMin": 18,
+  "dmgMax": 33,
+  "dr": 5,
+  "ht": 35,
+  "name": "ConjoinedCorpse_Name",
+  "name_objective": "ConjoinedCorpse_Name",
+  "description": "ConjoinedCorpse_Desc",
+  "spriteDesc": "spritesDesc/ConjoinedCorpse.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/ConjoinedCorpse"
+}

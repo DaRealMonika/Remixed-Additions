@@ -1,0 +1,20 @@
+{
+  "defenseSkill": 45,
+  "attackSkill": 78,
+  "exp": 200,
+  "maxLvl": 500,
+  "dmgMin": 47,
+  "dmgMax": 76,
+  "dr": 26,
+  "ht": 500,
+  "attackDelay": 3,
+  "attackRange": 8,
+  "name": "DeadAdventurer_Name",
+  "name_objective": "DeadAdventurer_Name",
+  "description": "DeadAdventurer_Desc",
+  "spriteDesc": "spritesDesc/MageGhost.json",
+  "aiState": "Hunting",
+  "walkingType": "NORMAL",
+  "battleMusic":"ost_boss_1_fight.mp3",
+  "scriptFile": "scripts/mobs/MageGhost"
+}

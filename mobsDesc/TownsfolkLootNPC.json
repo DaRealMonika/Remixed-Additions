@@ -1,0 +1,12 @@
+{
+  "baseSpeed": 0,
+  "name": "TownsfolkNPC_Name",
+  "name_objective": "TownsfolkNPC_Name",
+  "description": "TownsfolkMovieNPC_Desc",
+  "gender": "masculine",
+  "spriteDesc": "spritesDesc/TownsfolkMovieNPC.json",
+  "scriptFile": "scripts/npc/TownsfolkLoot",
+  "friendly": true,
+  "aiState": "Passive",
+  "fraction": "NEUTRAL"
+}

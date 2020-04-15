@@ -1,0 +1,19 @@
+{
+  "defenseSkill": 24,
+  "attackSkill": 48,
+  "exp": 40,
+  "maxLvl": 50,
+  "dmgMin": 30,
+  "dmgMax": 60,
+  "dr": 40,
+  "baseSpeed": 3,
+  "attackDelay": 6,
+  "ht": 80,
+  "name": "TombWorm_Name",
+  "name_objective": "TombWorm_Name",
+  "description": "TombWorm_Desc",
+  "spriteDesc": "spritesDesc/TombWorm.json",
+  "canBePet": true,
+  "walkingType": "NORMAL",
+  "scriptFile": "scripts/mobs/TombWorm"
+}
