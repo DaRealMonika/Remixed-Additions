@@ -1,0 +1,25 @@
+{
+   "texture" : "mobs/monika.png",
+   "width" : 16,
+   "height" : 16,
+   "idle" : {
+      "fps" : 4,
+      "looped" : true,
+      "frames" : [0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,4,4,4,5,5,5,5,5,5,5]
+   },
+   "run" : {
+      "fps" : 14,
+      "looped" : true,
+      "frames" : [0]
+   },
+   "attack" : {
+      "fps" : 11,
+      "looped" : false,
+      "frames" : [0]
+   },
+   "die" : {
+      "fps" : 11,
+      "looped" : false,
+      "frames" : [0]
+   }
+}

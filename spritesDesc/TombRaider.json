@@ -1,0 +1,26 @@
+{
+   "texture": "mobs/tomb_raider.png",
+   "height": 13,
+   "width": 12,
+   "idle": {
+     "fps": 1,
+     "looped": true,
+     "frames": [0,0,0,1,0,0,0,0,1]
+   },
+   "die": {
+     "fps": 10,
+     "looped": false,
+     "frames": [5,6,7,8,9]
+   },
+   "attack": {
+     "fps": 12,
+     "looped": false,
+     "frames": [10,11,12,0]
+   },
+   "run": {
+     "fps": 15,
+     "looped": true,
+     "frames": [0,0,2,3,3,4]
+   },
+   "bloodColor": "0xffbb0000"
+}

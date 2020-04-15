@@ -1,0 +1,31 @@
+{
+   "texture" : "mobs/mage_ghost.png",
+   "width" : 16,
+   "height" : 16,
+   "zapEffect" : "spectralFireball",
+   "idle" : {
+      "fps" : 1,
+      "looped" : true,
+      "frames" : [0,0,0,1,0,0,1,1]
+   },
+   "run" : {
+      "fps" : 20,
+      "looped" : true,
+      "frames" : [2,3,4,5,6,7]
+   },
+   "attack" : {
+      "fps" : 15,
+      "looped" : false,
+      "frames" : [12,13,14]
+   },
+   "zap" : {
+      "fps" : 15,
+      "looped" : false,
+      "frames" : [12,13,14]
+   },
+   "die" : {
+      "fps" : 20,
+      "looped" : false,
+      "frames" : [8,9,10,11]
+   }
+}

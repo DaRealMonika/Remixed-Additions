@@ -1,0 +1,25 @@
+{
+   "texture" : "mobs/bone_dragon_sleep.png",
+   "width" : 48,
+   "height" : 48,
+   "idle" : {
+      "fps" : 1,
+      "looped" : true,
+      "frames" : [0]
+   },
+   "run" : {
+      "fps" : 1,
+      "looped" : true,
+      "frames" : [0]
+   },
+   "attack" : {
+      "fps" : 1,
+      "looped" : false,
+      "frames" : [0]
+   },
+   "die" : {
+      "fps" : 1,
+      "looped" : false,
+      "frames" : [0]
+   }
+}

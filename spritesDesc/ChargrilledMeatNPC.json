@@ -1,0 +1,30 @@
+{
+   "texture" : "items/food.png",
+   "width" : 16,
+   "height" : 16,
+   "idle" : {
+      "fps" : 0,
+      "looped" : true,
+      "frames" : [3]
+   },
+   "run" : {
+      "fps" : 0,
+      "looped" : false,
+      "frames" : [3]
+   },
+   "attack" : {
+      "fps" : 0,
+      "looped" : false,
+      "frames" : [3]
+   },
+   "die" : {
+      "fps" : 0,
+      "looped" : false,
+      "frames" : [16]
+   }
+
+}
+
+
+
+

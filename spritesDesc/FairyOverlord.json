@@ -1,0 +1,30 @@
+{
+   "texture" : "mobs/fairy_overlord.png",
+   "width" : 24,
+   "height" : 24,
+   "idle" : {
+      "fps" : 1,
+      "looped" : true,
+      "frames" : [0,1]
+   },
+   "run" : {
+      "fps" : 5,
+      "looped" : true,
+      "frames" : [2,3,4,5]
+   },
+   "attack" : {
+      "fps" : 8,
+      "looped" : false,
+      "frames" : [11,12,13]
+   },
+   "zap" : {
+      "fps" : 8,
+      "looped" : false,
+      "frames" : [11,12,13]
+   },
+   "die" : {
+      "fps" : 11,
+      "looped" : false,
+      "frames" : [6,7,8,9,10]
+   }
+}
