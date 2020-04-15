@@ -1,0 +1,75 @@
+{
+ "customTiles":true,
+ "entrance":[1, 1],
+ "height":13,
+ "map":[
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 0,
+0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36,
+0, 0, 0, 0, 0, 0, 9, 9, 9, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 9, 9, 9, 9, 9, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 9, 9, 9, 9, 9, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 9, 9, 9, 9, 9, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 9, 9, 9, 0, 0, 0, 0, 0, 0,
+35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 0,
+0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 0, 0],
+ "multiexit":[],
+ "mobs":[
+   {
+     "kind":"CeaselessVoid",
+     "x":7,
+     "y":2
+   },
+   {
+     "kind":"NightmareClone",
+     "x":6,
+     "y":2
+   },
+   {
+     "kind":"NightmareClone",
+     "x":9,
+     "y":5
+   },
+   {
+     "kind":"NightmareClone",
+     "x":4,
+     "y":6
+   },
+   {
+     "kind":"NightmareClone",
+     "x":9,
+     "y":3
+   },
+   {
+     "kind":"NightmareClone",
+     "x":4,
+     "y":5
+   },
+   {
+     "kind":"NightmareClone",
+     "x":4,
+     "y":4
+   },
+   {
+     "kind":"NightmareClone",
+     "x":8,
+     "y":8
+   },
+   {
+     "kind":"NightmareClone",
+     "x":4,
+     "y":8
+   },
+   {
+     "kind":"NightmareClone",
+     "x":5,
+     "y":9
+   }],
+ "tiles_logic":"tiles_nightmare.png",
+ "tiles_objects":"Objects.png",
+ "water":"water_nightmare.png",
+ "width":15
+}

@@ -1,0 +1,15 @@
+{
+   "width":32,
+   "height":32,
+
+   "tiles":"tiles_sleep.png",
+   "water":"water_portal.png",
+
+   "rooms" : ["GARDEN","GARDEN","LIBRARY","STATUE","PASSAGE","TREASURY","TRAPS"],/*
+
+  "items": [
+    {"kind":"Codex","text":"You are asleep,\nThe dream and the nightmare hasn't been made yet,\n\nEnjoy while it lasts."}
+  ],*/
+  "nMobs":10,
+  "nTraps":10
+}

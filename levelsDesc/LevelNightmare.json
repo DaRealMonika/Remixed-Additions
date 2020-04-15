@@ -1,0 +1,9 @@
+{
+  "width":38,
+  "height":38,
+  "tiles":"tiles_nightmare.png",
+  "water":"water_nightmare.png",
+  "rooms" : ["TRAPS","VAULT","WEAK_FLOOR","MAGIC_WELL","CRYPT","LABORATORY","LIBRARY"],
+  "nMobs":25,
+  "nTraps":30
+}

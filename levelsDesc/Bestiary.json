@@ -1,0 +1,123 @@
+{
+   "SewerLevel":{
+      "1":{"Rat":1, "Albino":0.03},
+      "2":{"Rat":1, "Gnoll":1, "Albino":0.03},
+      "3":{"Rat":1, "Gnoll":2, "Crab":1, "Swarm":0.02, "Albino":0.03},
+      "4":{"Rat":1, "Gnoll":2, "Crab":1, "Swarm":0.02, "Skeleton":0.01, "Thief":0.01, "Albino":0.03}
+   },
+   "SewerBossLevel":{
+      "any":{"Goo":1}
+   },
+   "PrisonLevel":{
+      "6":{"Skeleton":4, "Thief":2, "Swarm":1, "Shaman":0.2, "Bandit":0.06},
+      "7":{"Skeleton":3, "Thief":1, "Swarm":1, "Shaman":1, "MazeShadow":1, "Bandit":0.03},
+      "8":{"Skeleton":3, "Shaman":2, "Thief":1, "Swarm":1, "MazeShadow":1, "Bat":0.02, "Bandit":0.03},
+      "9":{"Skeleton":3, "Shaman":3, "Thief":1, "Swarm":1, "MazeShadow":1, "Bat":0.02, "Brute":0.01, "Bandit":0.03}
+   },
+   "PrisonBossLevel":{
+      "any":{"Tengu":1}
+   },
+   "CavesLevel":{
+      "11":{"Bat":1, "Brute":0.2},
+      "12":{"Bat":1, "Brute":1, "Spinner":0.2, "Shielded":0.03},
+      "13":{"Bat":1, "Brute":3, "Spinner":1, "Shaman":1, "FireElemental":0.02, "Shielded":0.1},
+      "14":{"Bat":1, "Brute":3, "Spinner":4, "Shaman":1, "FireElemental":0.02, "Monk":0.01, "Shielded":0.1}
+   },
+   "CavesBossLevel":{
+      "any":{"DM300":1}
+   },
+   "CityLevel":{
+      "16":{"FireElemental":1, "Monk":0.2, "Warlock":1},
+      "17":{"FireElemental":1, "Monk":1, "Warlock":1, "Senior":0.03},
+      "18":{"FireElemental":1, "Monk":2, "Warlock":1, "Golem":1, "Senior":0.06},
+      "19":{"FireElemental":1, "Monk":2, "Warlock":1, "Golem":3, "Succubus":0.02, "Senior":0.06}
+   },
+   "CityBossLevel":{
+      "any":{"King":1}
+   },
+   "HallsLevel":{
+      "22":{"Succubus":1, "Eye":1},
+      "23":{"Succubus":1, "Eye":2, "Scorpio":1, "Acidic":0.03},
+      "24":{"Succubus":1, "Eye":2, "Scorpio":3, "Acidic":0.09}
+   },
+   "HallsBossLevel":{
+      "any":{"Yog":1, "YogsBrain":1, "YogsEye":1, "YogsHeart":1, "YogsTeeth":1}
+   },
+   "GutsLevel":{
+      "26":{"SuspiciousRat":1, "ZombieGnoll":2, "Worm":0.3, "Succubus":0.02},
+      "27":{"SuspiciousRat":2, "ZombieGnoll":1, "Worm":1, "Eye":1},
+      "28":{"SuspiciousRat":1, "ZombieGnoll":1, "Worm":2, "FireElemental":0.02},
+      "29":{"SuspiciousRat":2, "ZombieGnoll":1, "Worm":2},
+      "30":{"SuspiciousRat":1, "ZombieGnoll":1, "Worm":2}
+   },
+   "SpiderLevel":{
+      "6s":{"SpiderServant":1, "SpiderGuard":0.03},
+      "7s":{"SpiderServant":1, "SpiderExploding":0.5, "SpiderGuard":0.03},
+      "8s":{"SpiderServant":1, "SpiderExploding":0.5, "SpiderMind":0.2, "SpiderGuard":0.03, "SpiderMindAmber":0.006},
+      "9s":{"SpiderServant":1, "SpiderExploding":1, "SpiderMind":0.3, "SpiderGuard":0.03, "SpiderMindAmber":0.012, "UndeadSpiderMutant":0.006},
+      "10s":{"SpiderServant":1, "SpiderExploding":1, "SpiderMind":0.5, "SpiderGuard":0.03, "SpiderMindAmber":0.018, "UndeadSpiderMutant":0.012}
+   },
+   "NecroLevel":{
+      "necro1":{"Zombie":1, "Skeleton":1, "EnslavedSoul":0.9},
+      "necro2":{"Zombie":1, "ExplodingSkull":0.6, "EnslavedSoul":0.9, "DeathKnight":0.5, "DreadKnight":0.015},
+      "necro3":{"Zombie":2, "ExplodingSkull":1.2, "EnslavedSoul":0.9, "DeathKnight":0.5, "DreadKnight":0.015, "DarkElemental":0.05},
+      "necro4":{"ExplodingSkull":1.3, "EnslavedSoul":0.4, "DeathKnight":1.5, "DreadKnight":0.045, "DarkElemental":0.05}
+   },
+   "NecroBossLevel":{
+      "any":{"Lich":1}
+   },
+   "IceCavesLevel":{
+      "ice1":{"Kobold":1, "ColdSpirit":2, "IceElemental":0.1},
+      "ice2":{"Kobold":2, "KoboldIcemancer":1, "IceElemental":0.2},
+      "ice3":{"Kobold":2, "KoboldIcemancer":1, "ColdSpirit":1, "IceElemental":0.3, "LightElemental":0.05},
+      "ice4":{"Kobold":2, "KoboldIcemancer":1, "ColdSpirit":1, "IceElemental":0.6, "LightElemental":0.1}
+   },
+   "IceCavesBossLevel":{
+      "any":{"IceGuardianCore":1}
+   },
+  "RandomLevel":{
+      "tomb1":{"Mummy":0.5, "TombWorm":0.005, "CactusMimic":0.005, "Husk":0.5, "TombRaider":1.2},
+      "tomb2":{"Mummy":1, "TombWorm":0.01, "CactusMimic":0.01, "Husk":1, "TombRaider":0.6},
+      "tomb3":{"Mummy":2, "TombWorm":0.02, "CactusMimic":0.02, "Husk":2, "TombRaider":0.4},
+      "tomb4":{"Mummy":4, "TombWorm":0.04, "CactusMimic":0.04, "Husk":4, "TombRaider":0.2},
+      "tomb5":{"Mummy":6, "TombWorm":0.06, "CactusMimic":0.06, "Husk":6, "TombRaider":0.1},
+      "tomb6":{"Mummy":12, "TombWorm":0.12, "CactusMimic":0.12, "Husk":12, "TombRaider":0.05},
+      "tomb7":{"Mummy":24, "TombWorm":0.24, "CactusMimic":0.24, "Husk":24, "TombRaider":0.025},
+      "sleep1":{"Gnoll":1, "MazeShadow":0.3, "EnslavedSoul":0.01, "Rat":0.3},
+      "sleep2":{"Gnoll":3, "MazeShadow":0.3, "EnslavedSoul":0.5, "Rat":1},
+      "sleep3":{"Gnoll":5, "MazeShadow":0.3, "EnslavedSoul":1, "Rat":3},
+      "sleep4":{"Brute":2, "MazeShadow":1, "EnslavedSoul":3, "Shaman":5},
+      "sleep5":{"Brute":4, "MazeShadow":3, "EnslavedSoul":5, "Shaman":9},
+      "dream1":{"Fairy":1, "CockerSpaniel":0.3, "AngryNimbus":0.01, "EuropeanShorthair":0.3},
+      "dream2":{"Fairy":3, "CockerSpaniel":0.3, "AngryNimbus":0.5, "EuropeanShorthair":1},
+      "dream3":{"Fairy":5, "CockerSpaniel":0.3, "AngryNimbus":1, "EuropeanShorthair":3},
+      "dream4":{"Fairy":2, "CockerSpaniel":1, "AngryNimbus":3, "EuropeanShorthair":5},
+      "dream5":{"Fairy":4, "CockerSpaniel":3, "AngryNimbus":5, "EuropeanShorthair":9},
+      "dream6":{"Fairy":1, "CockerSpaniel":0.3, "AngryNimbus":0.01, "EuropeanShorthair":0.3},
+      "dream7":{"Fairy":3, "CockerSpaniel":0.3, "AngryNimbus":0.5, "EuropeanShorthair":1},
+      "dream8":{"Fairy":5, "CockerSpaniel":0.3, "AngryNimbus":1, "EuropeanShorthair":3},
+      "dream9":{"Fairy":2, "CockerSpaniel":1, "AngryNimbus":3, "EuropeanShorthair":5},
+      "nightmare1":{"ConjoinedCorpse":1, "TheRejected":0.3, "OmnipotentEye":0.01, "MazeShadow":0.3},
+      "nightmare2":{"TheRejected":3, "ConjoinedCorpse":0.3, "OmnipotentEye":0.5, "MazeShadow":1},
+      "nightmare3":{"ConjoinedCorpse":5, "TheRejected":0.3, "OmnipotentEye":1, "MazeShadow":3},
+      "nightmare4":{"TheRejected":2, "ConjoinedCorpse":1, "OmnipotentEye":3, "MazeShadow":5},
+      "nightmare5":{"ConjoinedCorpse":4, "TheRejected":3, "OmnipotentEye":5, "MazeShadow":9},
+      "nightmare6":{"TheRejected":1, "ConjoinedCorpse":0.3, "OmnipotentEye":0.01, "MazeShadow":0.3},
+      "nightmare7":{"ConjoinedCorpse":3, "TheRejected":0.3, "OmnipotentEye":0.5, "MazeShadow":1},
+      "nightmare8":{"TheRejected":5, "ConjoinedCorpse":0.3, "OmnipotentEye":1, "MazeShadow":3},
+      "nightmare9":{"ConjoinedCorpse":2, "TheRejected":1, "OmnipotentEye":3, "MazeShadow":5}
+  },
+  "PredesignedLevel":{
+    "desert":{"Mummy":1, "SandWorm":0.01, "CactusMimic":0.1, "Husk":1, "Skeleton":0.5}/*,
+    "ruinedCastle":{"Rat":5, "Possessed":0.3, "UndeadGuard":0.8, "Statue":0.05, "Skeleton":0.5}*/
+  },
+  "TestLevel":{
+    "any":{"BlackRat":1}
+  },
+  "Feelings":{
+    "Chance":0.2,
+    "CHASM":{"AirElemental":1},
+    "WATER":{"WaterElemental":1},
+    "GRASS":{"EarthElemental":1}
+  }
+}

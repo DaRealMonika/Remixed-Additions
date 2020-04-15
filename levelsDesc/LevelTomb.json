@@ -1,0 +1,9 @@
+{
+  "tiles":"tiles_tomb.png",
+  "water":"water_desert.png",
+
+  "rooms" : ["GARDEN","MAGIC_WELL","LIBRARY","STATUE","PASSAGE","TREASURY","TRAPS","CRYPT"],
+
+  "nMobs":50,
+  "nTraps":50
+}

@@ -1,0 +1,65 @@
+{
+  "FOOD": {
+    "categoryChance": 10,
+    "OverpricedRation" : 1,
+    "Pasty": 0.05,
+    "CactusFruit": 1
+  },
+  "THROWABLE": {
+    "categoryChance": 10,
+    "Dart": 1,
+    "CurareDart": 0.1,
+    "IncendiaryDart": 0.1,
+    "AmokDart": 0.08,
+    "HealthDart": 1,
+    "CatchingCapsule": 1
+  },
+  "ARMOR": {
+    "categoryChance": 5,
+    "PlateArmor": 2,
+    "ScaleArmor": 5,
+    "GothicArmor": 0.05
+  },
+  "SCROLL": {
+    "categoryChance": 10,
+    "ScrollOfMagicMapping": 1,
+    "ScrollOfIdentify": 1,
+    "ScrollOfDomination": 0.1,
+    "ScrollOfChallenge": 1,
+    "ScrollOfCurse": 1,
+    "BlankScroll": 5,
+    "ScrollOfReturning": 1,
+    "SpecialSummon": 1
+  },
+  "POTION": {
+    "categoryChance": 10,
+    "PotionOfPurity": 1,
+    "PotionOfHealing": 1,
+    "ManaPotion": 1,
+    "PotionOfLevitation": 0.05,
+    "PotionOfInvisibility": 0.05,
+    "OldBandage": 1
+  },
+  "WEAPON": {
+    "categoryChance": 5,
+    "SacrificialSword": 1,
+    "Knuckles": 1,
+    "Halberd": 1,
+    "IncendiaryDart": 1,
+    "Dagger": 1
+  },
+  "SHIELDS": {
+    "categoryChance": 5,
+    "ToughShield": 1,
+    "StrongShield": 0.1
+  },
+  "ACCESSORIES": {
+    "categoryChance": 5,
+    "BlazingRing": 1,
+    "CharmingRing": 1
+  },
+  "RANDOM": {
+    "categoryChance": 2,
+    "Ankh": 1
+  }
+}

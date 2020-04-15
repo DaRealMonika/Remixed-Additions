@@ -1,0 +1,11 @@
+{
+  "width":28,
+  "height":28,
+
+  "tiles":"tiles_dream.png",
+  "water":"water_ice_caves.png",
+
+  "rooms" : ["TREASURY","VAULT","STORAGE","WAREHOUSE","POOL","MAGIC_WELL","STATUE"],
+  "nMobs":15,
+  "nTraps":15
+}
