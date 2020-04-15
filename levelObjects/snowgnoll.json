@@ -1,0 +1,14 @@
+{
+  "kind":"Deco",
+
+  "appearance": {
+    "desc": {
+      "desc": "town_deco_snowgnoll_desc",
+      "name": "town_deco_snowgnoll_name"
+    },
+    "sprite":{
+      "textureFile": "levelObjects/snowgnoll.png",
+      "imageIndex" : 0
+    }
+  }
+}

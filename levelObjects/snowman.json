@@ -1,0 +1,14 @@
+{
+  "kind":"Deco",
+
+  "appearance": {
+    "desc": {
+      "desc": "town_deco_snowman_desc",
+      "name": "town_deco_snowman_name"
+    },
+    "sprite":{
+      "textureFile": "levelObjects/snowman.png",
+      "imageIndex" : 0
+    }
+  }
+}
