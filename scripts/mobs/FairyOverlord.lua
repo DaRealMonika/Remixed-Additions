@@ -113,7 +113,7 @@ return mob.init({
         if levelId == "dreamFinal" then
             level:set(level:cell(13,6), 7)
             RPD.GameScene:updateMap()
-            RPD.createLevelObject(portal, cause:getPos())
+            RPD.createLevelObject(portal, cellPos)
         end
 --        RPD.stopMusic()
 --        RPD.playSound("sound/snd_boss.mp3")

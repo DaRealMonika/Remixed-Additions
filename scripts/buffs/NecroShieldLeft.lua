@@ -7,7 +7,6 @@
 local RPD  = require "scripts/lib/commonClasses"
 local buff = require "scripts/lib/buff"
 local shields = require "scripts/lib/strongerShields"
-local mob = require "scripts/lib/mob"
 
 return buff.init{
     icon = function(self, buff)
@@ -57,7 +56,7 @@ return buff.init{
                     if level:cellValid(cell) then
                         local mob
                         if math.random(1,100) <= 7 then
-                            mob = chrKind
+                            mob = RPD.MobFactory:mobByName(chrKind)
                         else
                             mob = RPD.MobFactory:mobByName("Skeleton")
                         end
@@ -65,9 +64,9 @@ return buff.init{
                             if lvl <= 0 then
                                 mob:ht(25)
                             else
-                            mob:ht(25*lvl)
-                        end
-                        mob:hp(mob:ht()-(damage/2))
+                                mob:ht(25*lvl)
+                            end
+                            mob:hp(mob:ht()-(damage/2))
                         else
                             mob:ht(enemy:ht())
                             mob:hp(enemy:hp()-(damage/2))
@@ -85,7 +84,7 @@ return buff.init{
         return damage
     end,
 
-    attackProc = function(chr, buff, enemy, dmg)
+    attackProc = function(self, buff, enemy, dmg)
         local chr = buff.target
         local chrKind = enemy:getEntityKind()
         if chr:name() == "you" then
@@ -95,7 +94,7 @@ return buff.init{
         if enemy:canBePet() and chrKind ~= "MirrorImage" then
             if dmg >= enemy:hp() then
                 if math.random(1,100) <= 8 then
-                    mob:makePet(enemy, chr)
+                    enemy:makePet(chr)
                     enemy:heal(enemy:ht(), chr)
                     RPD.setAi(enemy, "Wandering")
                     return 0

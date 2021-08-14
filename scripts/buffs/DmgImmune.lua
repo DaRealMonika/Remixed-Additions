@@ -19,8 +19,8 @@ return buff.init{
         }
     end,
 
-    defenceProc = function(chr, buff, enemy, dmg)
-        return chr:damage(0, enemy)
+    defenceProc = function(self, buff, enemy, damage)
+        return 0
     end,
 
     immunities = function(self, buff)

@@ -42,7 +42,7 @@ return mob.init({
         else
             RPD.showQuestWindow(self, "Great Work! Here's your reward!")
             RPD.Journal:remove(self:name().." "..questName)
-            hero:collect(RPD.item("Gold", 1000000))
+            client:collect(RPD.item("Gold", 1000000))
             quest.complete(questName)
         end
         quest.debug(true)
