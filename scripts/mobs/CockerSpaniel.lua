@@ -18,7 +18,7 @@ return mob.init({
             hero:getSprite():showStatus(0xFF0000, RPD.textById("Str_lose"))
             RPD.playSound("snd_cursed.mp3")
         else
-            if cause.damage then
+            if cause.damage and cause.getSprite then
                 cause:damage(math.random(1,10), self)
                 cause:getSprite():emitter():burst(RPD.Sfx.ShadowParticle.CURSE, 6)
                 RPD.playSound("snd_cursed.mp3")
