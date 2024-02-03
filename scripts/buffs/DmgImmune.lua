@@ -13,7 +13,7 @@ local immuneAbnormal = {"Roots","Paralysis","Vertigo","Invisibility","Levitation
 return buff.init{
     desc  = function ()
         return {
-            icon          = 64,
+            icon          = -1,
             name          = "DmgImmune_Name",
             info          = "DmgImmune_Info",
         }

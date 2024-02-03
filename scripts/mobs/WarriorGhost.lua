@@ -20,6 +20,7 @@ return mob.init({
     die = function(self, cause)
         local level = RPD.Dungeon.level
         local cellPos = RPD.getXy(self)
+        local selfPos = self:getPos()
         RPD.Actor:remove(RPD.new(RPD.Objects.Actors.ScriptedActor,"scripts/actors/Bosses/BoneDragon"))
         local function deathDmg(cell)
             local target = RPD.Actor:findChar(cell)
@@ -47,10 +48,10 @@ return mob.init({
             local ranPots = math.random(1,#Potions)
             if Potions[ranPots] == "ManaPotion" or Potions[ranPots] == "PotionOfExperience" or Potions[ranPots] == "PotionOfStrength" or Potions[ranPot] == "PotionOfMight" then
                 local item = RPD.createItem(Potions[ranPots], {quanity=PotionAmount})
-                level:drop(item, cellPos)
+                level:drop(item, selfPos)
             else
                 local item = RPD.createItem(Potions[ranPots], {level=PotionAmount*2,quanity=PotionAmount})
-                level:drop(item, cellPos)
+                level:drop(item, selfPos)
             end
             ScrollAmount = math.random(2,6)
             local ranScr = math.random(1,#Scrolls-1)
