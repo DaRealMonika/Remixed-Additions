@@ -221,7 +221,7 @@ local RPD = {
     Dungeon = Dungeon,
 
     System = {
-        Input = luajava.bindClass("com.nyrds.platform.Input")
+        Input = luajava.bindClass("com.nyrds.platform.app.Input")
     },
 
     Slots = {

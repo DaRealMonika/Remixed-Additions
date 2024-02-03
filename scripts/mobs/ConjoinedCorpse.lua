@@ -18,7 +18,7 @@ return mob.init({
             local pos = self:getPos()
             mob1:setPos(pos)
             if self:isPet() then
-                mob:makePet(mob1, RPD.Dungeon.hero)
+                RPD.Mob:makePet(mob1, RPD.Dungeon.hero)
             end
             level:spawnMob(mob1)
         end
@@ -26,7 +26,7 @@ return mob.init({
             local pos = self:getPos()
             mob2:setPos(pos)
             if self:isPet() then
-                mob:makePet(mob2, RPD.Dungeon.hero)
+                RPD.Mob:makePet(mob2, RPD.Dungeon.hero)
             end
             level:spawnMob(mob2)
         end

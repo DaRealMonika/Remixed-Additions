@@ -60,30 +60,35 @@ return actor.init({
             if chance == desertMobChance[desertMobs[1]] then
                 mob = RPD.MobFactory:mobByName(desertMobs[1])
                 RPD.setAi(mob, mobAi[math.random(1,#mobAi)])
+                mob:setPos(pos)
                 level:spawnMob(mob)
                 RPD.glogp(desertMobs[1].." has spawned at "..tostring(pos)..".")
             end
             if chance == desertMobChance[desertMobs[2]] then
                 mob = RPD.MobFactory:mobByName(desertMobs[2])
                 RPD.setAi(mob, mobAi[math.random(1,#mobAi)])
+                mob:setPos(pos)
                 level:spawnMob(mob)
                 RPD.glogp(desertMobs[2].." has spawned at "..tostring(pos)..".")
             end
             if chance == desertMobChance[desertMobs[3]] then
                 mob = RPD.MobFactory:mobByName(desertMobs[3])
                 RPD.setAi(mob, mobAi[math.random(1,#mobAi)])
+                mob:setPos(pos)
                 level:spawnMob(mob)
                 RPD.glogp(desertMobs[3].." has spawned at "..tostring(pos)..".")
             end
             if chance == desertMobChance[desertMobs[4]] then
                 mob = RPD.MobFactory:mobByName(desertMobs[4])
                 RPD.setAi(mob, mobAi[math.random(1,#mobAi)])
+                mob:setPos(pos)
                 level:spawnMob(mob)
                 RPD.glogp(desertMobs[4].." has spawned at "..tostring(pos)..".")
             end
             if chance == desertMobChance[desertMobs[5]] then
                 mob = RPD.MobFactory:mobByName(desertMobs[5])
                 RPD.setAi(mob, mobAi[math.random(1,#mobAi)])
+                mob:setPos(pos)
                 level:spawnMob(mob)
                 RPD.glogp(desertMobs[5].." has spawned at "..tostring(pos)..".")
             end

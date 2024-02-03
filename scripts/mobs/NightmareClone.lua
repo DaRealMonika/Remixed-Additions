@@ -12,7 +12,7 @@ return mob.init({
     die = function(self, cause)
         local hero = RPD.Dungeon.hero
         local iterator = RPD.Dungeon.level.mobs:iterator()
-        if cause then
+        if cause.heal then
             cause:heal(math.random(3,18), self)
             while iterator:hasNext() do
                 local mob = iterator:next()

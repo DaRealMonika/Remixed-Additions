@@ -29,7 +29,7 @@ return item.init{
     end,
 
     execute = function(self, item, hero, action)
-        local immuneMobs = {MirrorImage=true,Shopkeeper=true,ImpShopkeeper=true,TempMoney=true,ShadyNPC=true,BishopNPC=true,BlackCat=true,CockerSpanielNPC=true,Yog=true,YogsEye=true,YogsBrain=true,YogsHeart=true,YogsTeeth=true,RottingFist=true,BurningFist=true}
+        local immuneMobs = {MirrorImage=true,Shopkeeper=true,ImpShopkeeper=true,TempMoney=true,ShadyNPC=true,BishopNPC=true,BlackCat=true,CockerSpanielNPC=true,Yog=true,YogsEye=true,YogsBrain=true,YogsHeart=true,YogsTeeth=true,RottingFist=true,BurningFist=true,WarriorGhost=true}
         local resistMobs = {Goo=true,SpiderQueen=true,Lich=true,Tengu=true,IceGuardianCore=true,IceGuardian=true,DM300=true,King=true,ShadowLord=true}
         local healMobs = {BoneDragon=true,GhostWarrior=true,GhostAssassin=true,GhostArcher=true,GhostMage=true}
         if action == RPD.Actions.read then

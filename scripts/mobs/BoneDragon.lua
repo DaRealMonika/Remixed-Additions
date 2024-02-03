@@ -20,14 +20,18 @@ local ItemAmount
 local tombPortal = {kind="PortalGateSender",target={levelId="tomb",x=6,y=1}}
 local townPortal = {kind="PortalGateSender",target={levelId="snowTown",x=12,y=28}}
 local desertTownPortal = {kind="PortalGateSender",target={levelId="home",x=9,y=3}}
-local sign = {kind="Sign",text=RPD.textById("TombPortal_Directions"):format(RPD.textById("tombMap_Name"),RPD.textById("snowTownMap_Name"),"Unknown for now"}
+local sign = {kind="Sign",
+              text=RPD.textById("TombPortal_Directions"):format(RPD.textById("tombMap_Name"),RPD.textById("snowTownMap_Name"),"Unknown for now")}
 
 return mob.init({
     die = function(self, cause)
         local level = RPD.Dungeon.level
         local levelId = RPD.Dungeon.levelId
         local cellPos = RPD.getXy(self)
+        local pos = self:getPos()
+
         RPD.Actor:remove(RPD.new(RPD.Objects.Actors.ScriptedActor,"scripts/actors/Bosses/BoneDragon"))
+
         local function deathDmg(cell)
             local target = RPD.Actor:findChar(cell)
             if target then
@@ -40,7 +44,8 @@ return mob.init({
                 RPD.affectBuff(target, RPD.Buffs.Slow, math.random(18,24))
             end
         end
-        RPD.forCellsAround(cellPos, deathDmg)
+
+        RPD.forCellsAround(pos, deathDmg)
         RPD.forCellsAround(level:cell(cellPos[1]-1,cellPos[2]-1), deathDmg)
         RPD.forCellsAround(level:cell(cellPos[1]+1,cellPos[2]-1), deathDmg)
         RPD.forCellsAround(level:cell(cellPos[1]-1,cellPos[2]+1), deathDmg)
@@ -58,27 +63,27 @@ return mob.init({
             local ranPots = math.random(1,#Potions)
             if Potions[ranPots] == "ManaPotion" or Potions[ranPots] == "PotionOfExperience" or Potions[ranPots] == "PotionOfStrength" or Potions[ranPot] == "PotionOfMight" then
                 local item = RPD.createItem(Potions[ranPots], {quanity=PotionAmount})
-                level:drop(item, cellPos)
+                level:drop(item, pos)
             else
                 local item = RPD.createItem(Potions[ranPots], {level=PotionAmount*2,quanity=PotionAmount})
-                level:drop(item, cellPos)
+                level:drop(item, pos)
             end
             ScrollAmount = math.random(2,6)
             local ranScr = math.random(1,#Scrolls-2)
-            level:drop(RPD.item(Scrolls[ranScr], ScrollAmount), self:getPos())
+            level:drop(RPD.item(Scrolls[ranScr], ScrollAmount), pos)
             local ranRin = math.random(1,#Rings-1)
-            level:drop(RPD.createItem(Rings[ranRin], {level=ScrollAmount*2}), self:getPos())
+            level:drop(RPD.createItem(Rings[ranRin], {level=ScrollAmount*2}), pos)
             if i ~= 3 then
-                level:drop(RPD.item(Items[2]), self:getPos())
+                level:drop(RPD.item(Items[2]), pos)
             end
         end
         ItemAmount = math.random(2,28)
-        level:drop(RPD.item(Items[3], ItemAmount/2), self:getPos())
-        level:drop(RPD.item(Items[4], ItemAmount), self:getPos())
-        level:drop(RPD.createItem(Items[1], {level=ItemAmount}), self:getPos())
-        level:drop(RPD.item(Scrolls[#Scrolls]), self:getPos())
-        level:drop(RPD.item(Scrolls[#Scrolls-1], 5), self:getPos())
-        level:drop(RPD.item(Rings[#Rings]), self:getPos())
+        level:drop(RPD.item(Items[3], ItemAmount/2), pos)
+        level:drop(RPD.item(Items[4], ItemAmount), pos)
+        level:drop(RPD.createItem(Items[1], {level=ItemAmount}), pos)
+        level:drop(RPD.item(Scrolls[#Scrolls]), pos)
+        level:drop(RPD.item(Scrolls[#Scrolls-1], 5), pos)
+        level:drop(RPD.item(Rings[#Rings]), pos)
     end,
 
     defenceProc = function(self, enemy, dmg)

@@ -13,14 +13,14 @@ local immuneAbnormal = {"Roots","Paralysis","Vertigo","Invisibility","Levitation
 return buff.init{
     desc  = function ()
         return {
-            icon          = 64,
+            icon          = -1,
             name          = "DmgImmune_Name",
             info          = "DmgImmune_Info",
         }
     end,
 
-    defenceProc = function(chr, buff, enemy, dmg)
-        return chr:damage(0, enemy)
+    defenceProc = function(self, buff, enemy, damage)
+        return 0
     end,
 
     immunities = function(self, buff)

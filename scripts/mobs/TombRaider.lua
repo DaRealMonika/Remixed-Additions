@@ -24,7 +24,14 @@ return mob.init{
             local belongins = enemy:getBelongings()
             if belongins then
                 local items = belongins.backpack.items
-                item = items:get(math.random(0,items:size()-1))
+
+                local nItems = items:size()
+
+                if nItems == 0 then
+                    return dmg
+                end
+
+                item = items:get(math.random(0,nItems-1))
                 if golden[item:getClassName()] or chaos[item:getClassName()] then
                     item:removeItemFrom(enemy)
                     RPD.glogw("Thief_Stole", self:name(), item:name())

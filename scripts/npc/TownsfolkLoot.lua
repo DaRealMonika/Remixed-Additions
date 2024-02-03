@@ -15,9 +15,7 @@ local client
 local amountKill = 25
 local amountCollect = 20
 
---local Quest = RPD.textById("QuestKill"):format(tostring(amountKill), RPD.textById(RPD.MobFactory:mobByName("Thief"):getEntityKind().."_NamePlural"), RPD.textById("QuestCollect"):format(tostring(amountCollect), RPD.textById(RPD.ItemFactory:itemByName("SoulShard"):getClassName().."_NamePlural")))
-
-local questName = RPD.textById("QuestName"):format(Quest)"Kill "..RPD.MobFactory:mobByName("Thief"):name().."s, Collect "..RPD.ItemFactory:itemByName("SoulShard"):name().."s"
+local questName = "Kill "..RPD.MobFactory:mobByName("Thief"):name().."s, Collect "..RPD.ItemFactory:itemByName("SoulShard"):name().."s"
 
 return mob.init({
     interact = function(self, chr)

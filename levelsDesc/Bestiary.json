@@ -108,11 +108,13 @@
       "nightmare9":{"ConjoinedCorpse":2, "TheRejected":1, "OmnipotentEye":3, "MazeShadow":5}
   },
   "PredesignedLevel":{
-    "desert":{"Mummy":1, "SandWorm":0.01, "CactusMimic":0.1, "Husk":1, "Skeleton":0.5}/*,
-    "ruinedCastle":{"Rat":5, "Possessed":0.3, "UndeadGuard":0.8, "Statue":0.05, "Skeleton":0.5}*/
+    "desert":{"Mummy":1, "SandWorm":0.01, "CactusMimic":0.1, "Husk":1, "Skeleton":0.5}
   },
   "TestLevel":{
     "any":{"BlackRat":1}
+  },
+  "ShadowLordLevel":{
+    "any":{"ShadowLord":1}
   },
   "Feelings":{
     "Chance":0.2,

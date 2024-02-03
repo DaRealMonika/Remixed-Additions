@@ -88,7 +88,31 @@
         {
          "kind":"Shopkeeper",
          "x":7,
-         "y":4
+         "y":4,
+         "items": [
+          {
+           "kind": "TomeOfKnowledge",
+           "identified": true
+          },
+          {
+           "kind": "Keyring"
+          },
+          {
+           "kind": "ScrollHolder"
+          },
+          {
+           "kind": "PotionBelt"
+          },
+          {
+           "kind": "SeedPouch"
+          },
+          {
+           "kind": "Quiver"
+          },
+          {
+           "kind": "WandHolster"
+          }
+         ]
         }],
  "multiexit":[],
  "roofDecoTileVar":[
